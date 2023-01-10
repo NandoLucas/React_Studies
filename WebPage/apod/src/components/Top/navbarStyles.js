@@ -24,6 +24,9 @@ export const P = styled.p`
     box-shadow: 2px solid;
     color: #f0f6fc;
     text-decoration: none;
+    &:hover {
+      color: #babbbd;
+    }
   }
 `;
 export const Span = styled.span`
@@ -39,6 +42,9 @@ export const H3 = styled.h3`
     padding: 14px;
     font-size: 18px;
     text-decoration: none;
+    &:hover {
+      color: #babbbd;
+    }
   }
 `;
 

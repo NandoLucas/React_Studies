@@ -6,7 +6,14 @@ export default function Developers() {
     <>
       <Navbar></Navbar>
       <main>
-        <p>Body</p>
+        <section>
+          <img src="./images/perfil_gmail.webp" alt="Fernando Lucas"></img>
+          <p>
+            Graduando em Engenharia da Computação (UFRN), Bacharel em Ciências e
+            Tecnologia com ênfase em Computação (UFRN), Técnico em Informática
+            (IFRN).
+          </p>
+        </section>
       </main>
       <Footer></Footer>
     </>

@@ -23,6 +23,9 @@ export const P = styled.p`
     color: #f0f6fc;
     margin-right: 8em;
     text-decoration: none;
+    &:hover {
+      color: #babbbd;
+    }
   }
 `;
 export const Span = styled.span`
@@ -31,7 +34,7 @@ export const Span = styled.span`
   margin-top: 1.5em;
 `;
 
-export const H3 = styled.p`
+export const H3 = styled.h3`
   margin-top: 1em;
   padding-right: 2em;
   padding-left: 2em;
@@ -39,6 +42,9 @@ export const H3 = styled.p`
     color: #f0f6fc;
     font-size: 18px;
     text-decoration: none;
+    &:hover {
+      color: #babbbd;
+    }
   }
 `;
 

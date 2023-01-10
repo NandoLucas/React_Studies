@@ -8,30 +8,30 @@ html, body{
 }
 
 body{
-    background-color: white;
     position: absolute;
 }
 
 main{
     height: auto;
     width: 100%;
-    margin: 10px 0px;
     padding: 5px;
     padding-bottom: 80px;
     padding-top: 170px;
     clear: both;
+    background-color: #0D1117;
 }
 
 main h2, main h3{
     text-align: center;
     margin: 3px auto;
+    color:#f5f6fc;
 }
 
 main section {
     width: 90%;
-    height: 420px;
-    border-top:1px dashed #999;
-    border-bottom:1px dashed #999;
+    height: 460px;
+    border-top:1px solid #999;
+    border-bottom:1px solid #999;
     margin: 10px auto 35px auto!important;
     text-align: center;
     display: flex;
@@ -41,11 +41,10 @@ main section {
 main section img{
     margin: 40px 0px 40px 40px;
     max-height: 90%;
-    max-width: 98%;
+    max-width: 90%;
     border-radius: 10px;
     box-shadow: 1px 1px 6px 1px #000;
-    flex: 1;
-    border-right:1px dashed #999;
+    border-right:1px solid #999;
     border-radius: 15px 15px 15px 15px;
 }
 
@@ -58,12 +57,12 @@ main section img:hover{
 }
 
 main section p{
-    flex: 1;
     text-align: justify;
     padding: 50px 25px 80px 5px!important;
-    border-right:1px dashed #999;
+    border-right:1px solid #999;
     font-size: 16px;
     line-height: 24px;
+    color: #f5f6fc;
 }
 
 main p {
