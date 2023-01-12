@@ -1,67 +1,118 @@
 *, :after, :before{
   box-sizing: border-box;
 }
+main{
+  min-height: 100vh;
+}
 .logosite {
-    width: 200px;
-  }
-  .menu {
-    display: flex;
-    justify-content: right;
-    width: auto;
-    max-width: 900px;
-  }
-  .menu a{
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
-    width: 150px;
-    line-height: 18pt;
-    font-weight: bolder;
-    text-transform: uppercase;
-    color: #8a200d!important;
-    display: inline-block;
-    letter-spacing: .15em;
-    padding: 15px 20px;
-    position: relative;
-    margin: 20px;
-    text-align: center;
-    text-decoration: none;
-  }
-  .menu a:after{
-    display:block;
-    content: '';
-    height: 10px;
-    border-bottom: solid 2px #8a200d;  
-    transform: scaleX(0);  
-    transition: transform 250ms ease-in-out;
-  }
-  .menu a:hover:after{
-    transform: scaleX(1);
-  }
-  .menu a:hover{
-    transform: scale(1.1);
-  }
-  main {
-    padding-top: 60px;
-  }
-  
-  .principal {
-    padding-top: 80px;
-  }
-  
-  .Footer {
-    padding-top: 20px;
-    background-color: #454648;
-  }
-  
-  .Footer h3 {
-    color: #ffffff;
-  }
-  .Footer p {
-    color: #ffffff80;
-  }
-  
-  img.center {
-    display: block;
-    margin: 0 auto;
-  }
+  width: 200px;
+}
+
+.navbar-collapse{
+  flex-grow: 0 !important;
+}
+
+.menu {
+  display: flex;
+  justify-content: right;
+  width: auto;
+  max-width: 900px;
+}
+
+.menu a{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  width: 150px;
+  line-height: 18pt;
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #8a200d!important;
+  display: inline-block;
+  letter-spacing: .15em;
+  padding: 15px 20px;
+  position: relative;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.messageArea{
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.menu a:after{
+  display:block;
+  content: '';
+  height: 10px;
+  border-bottom: solid 2px #8a200d;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+
+.menu a:hover:after{
+  transform: scaleX(1);
+}
+
+a:hover{
+  transform: scale(1.1);
+}
+
+i:hover{
+  transform: scale(1.1);
+  color: #8a200d;
+}
+
+.principal {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.Footer {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  background-color: #F5F5F5;
+}
+
+.Footer h3 p {
+  color: #212529;
+}
+
+.col h3{
+  font-size: 23px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.col p{
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.info-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img.center {
+  display: block;
+  margin: 0 auto;
+}
+
+i{
+  display: block;
+  margin: 10px;
+  width: 30px;
+}
+
+.fab{
+  color: #212529;
+  font-size: 40px;
+  width: 70px;
+}
+
+.form{
+  padding-top: 50px;
+  padding-bottom: 50px;;
+}
   

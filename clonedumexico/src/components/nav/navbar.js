@@ -14,13 +14,13 @@ export default function Header() {
           ></img>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="menu navbar-nav">
             <a href="/">Início</a>
             <a href="/about">Sobre</a>
             <a href="/contact">Contato</a>
           </Nav>
-        </Navbar>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );
